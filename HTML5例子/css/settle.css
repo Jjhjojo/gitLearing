@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 顶部 */
+.top{
+	background-color: #dcdcdd;
+	height: 40px;
+}
+.breadcrumb{
+	display: block;
+	position: absolute;
+	background-color: transparent;
+	text-align: center;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+	content: "|";
+}
+/* 导航栏 */
+.header{
+	width: 90%;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #000000;
+}
+.icons{
+	font-size: 20px;
+}
+.nav-item{
+    margin: 10px;
+}
+/* 尾部 */
+.footer{
+	height: 120px;
+}
+.icons2{
+	font-size: 30px;
+}
+.float-right{
+	padding: 50px;
+	display: block;
+}
+@media (max-width:576px) {
+	/* 头部导航菜单大小发生变化*/
+	.float-right{
+		display: none;
+	}
+}
+/* 结算 */
+.d-flex img{
+	width: 110px;
+	height: 150px;
+}
+.btn-dark{
+	display: block;
+	position: relative;
+	left: 75%;
+}

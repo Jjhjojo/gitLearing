@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 新 Bootstrap4 核心 CSS 文件-->
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/list.css" />
+		<!-- 引入iconfont字体样式表 -->
+		<link rel="stylesheet" href="iconfont-v1.0/style.css">
+	</head>
+	<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+		<!-- 顶部 -->
+		<div class="container-fluid top">
+			<nav class="breadcrumb w-100">
+				<a class="breadcrumb-item text-dark font-weight-bold" href="list.html">人见人爱</a>
+				<span class="breadcrumb-item text-dark text-black-50 active">人气好礼，一次购齐</span>
+				<a class="breadcrumb-item text-dark" href="list.html">去逛逛</a>
+			</nav>
+		</div>
+		<!-- 导航栏 -->
+		<div class="container-fluid header">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a href="index.html"><img class="navbar-brand" src="img/logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">男士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">女士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">儿童</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<span class="search">
+					<nav class="navbar navbar-expand-sm navbar-dark">
+						<form class="form-inline">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search">
+								<button type="button" class="btn btn-outline-dark">搜索</button>
+							</div>
+						</form>
+					</nav>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-mine text-dark" href="login.html" title="登录"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-waimai3 text-dark" href="shopcar.html" title="购物车"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="iconfont icon-icon-test8 text-dark" href="personal.html" title="个人中心"></a>
+				</span>
+			</nav>
+		</div>
+		<!-- 列表页 -->
+		<div class="container">
+			<div>
+				<h1 class="text-center">男士折扣精选</h1>
+				<p class="text-center">男士系列精选折扣又开始啦。无论你是已有心仪单品等待入手，还是忙中偷闲浏览一番，我们都准备好了。</p>
+				<button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#demo">显示更多</button> <span id="demo"
+				 class="collapse">
+					心动价设计师品牌时髦好物尽在<strong class="text-danger">精选折扣服装与配饰</strong>，精选折扣上衣中的 Burberry 等你来收，<strong class="text-danger">精选折扣运动鞋</strong>中的
+					Alexander McQueen 也正蠢蠢欲动，不容错过。
+				</span>
+			</div>
+			<br>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="lable col-sm-3 col-4" id="myScrollspy">
+					<ul class="nav nav-pills flex-column ">
+						<li class="nav-item ">
+							<h5>商品类别</h5>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link active text-dark pl-4" href="#section1">服装</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark pl-4" href="#section2">裤子</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark pl-4" href="#section3">鞋履</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link text-dark pl-4" href="#section4">配饰</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="col-sm-9 col-8">
+					<div id="section1" class="d-sm-flex d-xl-flex flex-row">
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href="details.html"><img src="img/list/2.jpg" alt=""></a>
+							<h6 class="text-center">Romeo Gigli Pre-Owned</h6>
+							<p class="text-center">古着休闲拉链夹克</p>
+							<div class="text-center"><span class="text-secondary">￥ 300</span><span> | 优惠30%</span><span class="text-danger">￥
+									210</span></div>
+						</div>
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href="details.html"><img src="img/list/3.jpg" alt=""></a>
+							<h6 class="text-center">Brunello Cucinelli</h6>
+							<p class="text-center">衬里夹克</p>
+							<div class="text-center"><span class="text-secondary">￥ 400</span><span> | 优惠30%</span><span class="text-danger">￥
+									280</span></div>
+						</div>
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href="details.html"><img src="img/list/4.jpg" alt=""></a>
+							<h6 class="text-center">Off-White</h6>
+							<p class="text-center">黑色卡拉瓦乔油画春夏T恤</p>
+							<div class="text-center"><span class="text-secondary">￥ 100</span><span> | 优惠20%</span><span class="text-danger">￥
+									80</span></div>
+						</div>
+					</div>
+					<br>
+					<div id="section2" class="d-sm-flex d-xl-flex flex-row">
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href="details.html"><img src="img/list/1.jpg" alt=""></a>
+							<h6 class="text-center">Palm Angels</h6>
+							<p class="text-center">X Browns 50 小熊印花运动裤</p>
+							<div class="text-center"><span class="text-secondary">￥ 200</span><span> | 优惠30%</span><span class="text-danger">￥
+									140</span></div>
+						</div>
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href="details.html"><img src="img/list/5.jpg" alt=""></a>
+							<h6 class="text-center">P.A.R.O.S.H.</h6>
+							<p class="text-center">阔腿露踝裤</p>
+							<div class="text-center"><span class="text-secondary">￥ 120</span><span> | 优惠30%</span><span class="text-danger">￥
+									84</span></div>
+						</div>
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href="details.html"><img src="img/list/6.jpg" alt=""></a>
+							<h6 class="text-center">Moschino Kids</h6>
+							<p class="text-center">logo印花长裤</p>
+							<div class="text-center"><span class="text-secondary">￥ 110</span><span> | 优惠20%</span><span class="text-danger">￥
+									98</span></div>
+						</div>
+					</div>
+					<br>
+					<div id="section3" class="d-sm-flex d-xl-flex flex-row">
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href=""><img src="img/list/7.jpg" alt=""></a>
+							<h6 class="text-center">Gucci</h6>
+							<p class="text-center">X Disney Ace Donald Duck 运动鞋</p>
+							<div class="text-center"><span class="text-secondary">￥ 300</span><span> | 优惠30%</span><span class="text-danger">￥
+									210</span></div>
+						</div>
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href=""><img src="img/list/8.jpg" alt=""></a>
+							<h6 class="text-center">Golden Goose Kids</h6>
+							<p class="text-center">Superstar Glitter 板鞋</p>
+							<div class="text-center"><span class="text-secondary">￥ 200</span><span> | 优惠30%</span><span class="text-danger">￥
+									140</span></div>
+						</div>
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href=""><img src="img/list/9.jpg" alt=""></a>
+							<h6 class="text-center">Philippe Model Paris</h6>
+							<p class="text-center">Trpx Camouflage Neon 低帮运动鞋</p>
+							<div class="text-center"><span class="text-secondary">￥ 400</span><span> | 优惠20%</span><span class="text-danger">￥
+									320</span></div>
+						</div>
+					</div>
+					<br>
+					<div id="section4" class="d-sm-flex d-xl-flex flex-row">
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href=""><img src="img/list/10.jpg" alt=""></a>
+							<h6 class="text-center">Gucci</h6>
+							<p class="text-center">格纹提花围巾</p>
+							<div class="text-center"><span class="text-secondary">￥ 250</span><span> | 优惠30%</span><span class="text-danger">￥
+									175</span></div>
+						</div>
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href=""><img src="img/list/11.jpg" alt=""></a>
+							<h6 class="text-center">LOEWE</h6>
+							<p class="text-center">logo钱包</p>
+							<div class="text-center"><span class="text-secondary">￥ 100</span><span> | 优惠30%</span><span class="text-danger">￥
+									70</span></div>
+						</div>
+						<div class="goods-s p-2">
+							<a class="iconfont icon-icon-test30" data-toggle="tooltip" title="添加到购物车" type="button"></a>
+							<a href=""><img src="img/list/12.jpg" alt=""></a>
+							<h6 class="text-center">Bottega Veneta</h6>
+							<p class="text-center">intrecciato编织超长皮质腰带</p>
+							<div class="text-center"><span class="text-secondary">￥ 200</span><span> | 优惠20%</span><span class="text-danger">￥
+									160</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- 结尾 -->
+		<div class="container-fluid bg-dark">
+			<div class="footer clearfix">
+				<ul class="nav flex-column float-left">
+					<li>
+						<a class="nav-link text-white"" href=" #">广东农工商职业技术学院</a>
+					</li>
+					<li>
+						<a class="nav-link text-white" href="#">XX电子商务有限公司 | 营业执照</a>
+					</li>
+					<li>
+						<a class="nav-link disabled text-white" href="#">© Copyright 2020 GOODCLOTHES. 版权所有</a>
+					</li>
+				</ul>
+				<div class="float-right text-white pt-3">
+					<span>关注GOODCLOTHES</span>
+					<br>
+					<span class="icons2 iconfont icon-alipay"></span>
+					<span class="icons2 iconfont icon-icon-test44"></span>
+					<span class="icons2 iconfont icon-dingwei"></span>
+				</div>
+			</div>
+			<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+			<script src="lib/jquery/jquery.min.js"></script>
+			<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+			<script src="lib/js/bootstrap.bundle.min.js"></script>
+			<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+			<script src="lib/js/bootstrap.min.js"></script>
+	</body>
+</html>

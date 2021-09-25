@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+		<!-- 新 Bootstrap4 核心 CSS 文件-->
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<!-- 引入iconfont字体样式表 -->
+		<link rel="stylesheet" href="iconfont-v1.0/style.css">
+	</head>
+	<body>
+		<!-- 顶部 -->
+		<div class="container-fluid top">
+			<nav class="breadcrumb w-100">
+				<a class="breadcrumb-item text-dark font-weight-bold" href="list.html">人见人爱</a>
+				<span class="breadcrumb-item text-dark text-black-50 active">人气好礼，一次购齐</span>
+				<a class="breadcrumb-item text-dark" href="list.html">去逛逛</a>
+			</nav>
+		</div>
+		<!-- 导航栏 -->
+		<div class="container-fluid header">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a href="index.html"><img class="navbar-brand" src="img/logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">男士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">女士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">儿童</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<span class="search">
+					<nav class="navbar navbar-expand-sm navbar-dark">
+						<form class="form-inline">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search">
+								<button type="button" class="btn btn-outline-dark">黑色</button>
+							</div>
+						</form>
+					</nav>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-mine text-dark" href="login.html" title="登录"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-waimai3 text-dark" href="shopcar.html" title="购物车"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="iconfont icon-icon-test8 text-dark" href="personal.html" title="个人中心"></a>
+				</span>
+			</nav>
+		</div>
+		<!-- 登录注册 -->
+		<div class="login">
+			<br>
+			<div class="container">
+				<div>
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="tab" href="#login">电话登录</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#register">会员登录</a>
+						</li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<!-- 登录 -->
+						<div id="login" class="container tab-pane active"><br>
+							<form>
+								<h4>已注册用户</h4>
+								<div class="form-group">
+									<label for="text">电话&nbsp;*</label>
+									<div class="input-group-prepend">
+										<span class="input-group-text"><span class="iconfont icon-xinpin1 text-danger"></span>+86</span>
+										<input type="text" class="form-control" id="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="pwd">密码&nbsp;*</label>
+									<input type="password" class="form-control" id="pwd">
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox"> 记住密码<a class="text-secondary mx-2" href="">详细信息</a>
+									</label>
+								</div>
+								<button type="button" class="btn btn-dark">登录<span class="ml-4 iconfont icon-mima"></span></button>
+							</form>
+						</div>
+						<div id="register" class="container tab-pane fade"><br>
+							<form>
+								<h4>会员用户</h4>
+								<span class="text-danger font-weight-lighter">享受八折优惠</span>
+								<div class="form-group">
+									<label for="text">会员账号&nbsp;*</label>
+									<div class="input-group-prepend">
+										<input type="text" class="form-control" id="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="pwd">密码&nbsp;*</label>
+									<input type="password" class="form-control" id="pwd">
+								</div>
+								<div class="form-check">
+									<label class="form-check-label">
+										<input class="form-check-input" type="checkbox"> 记住密码<a class="text-secondary mx-2" href="">详细信息</a>
+									</label>
+								</div>
+								<button type="button" class="btn btn-dark">登录<span class="ml-4 iconfont icon-mima"></span></button>
+							</form>
+						</div>
+					</div>
+					<div class="bg-white line">
+						<button type="button" class="btn btn-success btn-lg btn-block">微信登录<span class="iconfont icon-icon-test44"></span></button>
+						<a class="py-4 vip text-danger text-center d-block" href="register.html">注册会员！享受所有商品八折优惠！</a>
+					</div>
+				</div>
+			</div>
+			<br>
+		</div>
+		<!-- 尾部 -->
+		<div class="container-fluid bg-dark">
+			<div class="footer clearfix">
+				<ul class="nav flex-column float-left">
+					<li>
+						<a class="nav-link text-white"" href=" #">广东农工商职业技术学院</a>
+					</li>
+					<li>
+						<a class="nav-link text-white" href="#">XX电子商务有限公司 | 营业执照</a>
+					</li>
+					<li>
+						<a class="nav-link disabled text-white" href="#">© Copyright 2020 GOODCLOTHES. 版权所有</a>
+					</li>
+				</ul>
+				<div class="float-right text-white pt-3">
+					<span>关注GOODCLOTHES</span>
+					<br>
+					<span class="icons2 iconfont icon-alipay"></span>
+					<span class="icons2 iconfont icon-icon-test44"></span>
+					<span class="icons2 iconfont icon-dingwei"></span>
+				</div>
+			</div>
+			<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+			<script src="lib/jquery/jquery.min.js"></script>
+			<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+			<script src="lib/js/bootstrap.bundle.min.js"></script>
+			<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+			<script src="lib/js/bootstrap.min.js"></script>
+	</body>
+</html>

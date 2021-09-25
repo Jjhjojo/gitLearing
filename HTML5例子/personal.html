@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<!-- 新 Bootstrap4 核心 CSS 文件-->
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/personal.css" />
+		<!-- 引入iconfont字体样式表 -->
+		<link rel="stylesheet" href="iconfont-v1.0/style.css">
+	</head>
+	<body>
+		<!-- 顶部 -->
+		<div class="container-fluid top">
+			<nav class="breadcrumb w-100">
+				<a class="breadcrumb-item text-dark font-weight-bold" href="list.html">人见人爱</a>
+				<span class="breadcrumb-item text-dark text-black-50 active">人气好礼，一次购齐</span>
+				<a class="breadcrumb-item text-dark" href="list.html">去逛逛</a>
+			</nav>
+		</div>
+		<!-- 导航栏 -->
+		<div class="container-fluid header">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a href="index.html"><img class="navbar-brand" src="img/logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">男士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">女士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">儿童</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<span class="search">
+					<nav class="navbar navbar-expand-sm navbar-dark">
+						<form class="form-inline">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search">
+								<button type="button" class="btn btn-outline-dark">黑色</button>
+							</div>
+						</form>
+					</nav>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-mine text-dark" href="login.html" title="登录"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-waimai3 text-dark" href="shopcar.html" title="购物车"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="iconfont icon-icon-test8 text-dark" href="personal.html" title="个人中心"></a>
+				</span>
+			</nav>
+		</div>
+		<div class="container">
+			<h2>我的账户</h2>
+			<p><a class="text-secondary text-right d-block" href="list.html">返回购物</a></p>
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header">
+						<a class="card-link text-dark" data-toggle="collapse" href="#collapseOne">
+							个人信息与密码
+						</a>
+					</div>
+					<div id="collapseOne" class="collapse show" data-parent="#accordion">
+						<div class="card-body">
+							<span class="font-weight-bold mr-5 pr-5">名字</span><span class="ml-1 pl-5">afa</span><br>
+							<span class="font-weight-bold mr-5 pr-">姓氏</span><br>
+							<span class="font-weight-bold mr-5 pr-">邮箱地址</span><span class="ml-3 pl-5">12312412@qq.com</span><br>
+							<span class="font-weight-bold mr-5 pr-">电话</span><br>
+							<span class="font-weight-bold mr-5 pr-">生日</span><span class="ml-5 pl-5">--/--/--</span><br>
+							<span class="font-weight-bold mr-5 pr-">性别</span><span class="ml-5 pl-5">保密</span><br>
+							<span class="font-weight-bold mr-5 pr-">密码</span><span class="ml-5 pl-5">******</span>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed card-link text-dark" data-toggle="collapse" href="#collapseTwo">
+							登录与帐户安全
+						</a>
+					</div>
+					<div id="collapseTwo" class="collapse" data-parent="#accordion">
+						<div class="card-body">
+							<br>
+							<span class="iconfont icon-icon-test24"></span>
+							<h5 class="text-center">与您 GOODCLOTHES 帐户关联的 APP</h5>
+							<p class="text-center">您可在这管理所有获得您 GOODCLOTHES 帐户信息权限的网站与 APP。目前您的 FARFETCH 帐户没有关联任何网站或 APP。</p>
+							<br>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed card-link text-dark" data-toggle="collapse" href="#collapseThree">
+							地址簿
+						</a>
+					</div>
+					<div id="collapseThree" class="collapse" data-parent="#accordion">
+						<div class="card-body">
+							<br>
+							<h6 class="font-weight-bold">您当前没有已储存的地址。</h6>
+							<p>新增地址且享受更快的结算体验。</p>
+							<form>
+								<div class="form-group">
+									<label for="text">地点&nbsp;*</label><br>
+									<span class="iconfont icon-xinpin1 text-danger"></span>中国大陆
+								</div>
+								<div class="form-group">
+									<label for="text">省/市&nbsp;*</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="form-group">
+									<label for="text">城市&nbsp;*</label>
+									<select class="form-control" id="sel1">
+										<option>广东</option>
+										<option>上海</option>
+										<option>北京</option>
+										<option>浙江</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<label for="text">地址&nbsp;*</label>
+									<input type="text" class="form-control">
+									<input type="text" class="form-control">
+								</div>
+								<p>请注意，为安全起见，我们无法送货至邮政信箱地址。</p>
+								<div class="form-group">
+									邮编&nbsp;*<input type="text" class="form-control">
+									电话&nbsp;*<input type="text" class="form-control">
+								</div>
+								<label class="mx-4 form-check-label">
+									<input type="checkbox" class="form-check-input" value="">设为首选收货地址
+								</label>
+								<button type="button" class="btn btn-dark d-block">保存地址</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed card-link text-dark" data-toggle="collapse" href="#collapseFour">
+							登录与帐户安全
+						</a>
+					</div>
+					<div id="collapseFour" class="collapse" data-parent="#accordion">
+						<div class="card-body">
+							<br>
+							<p>追踪您的订单、申请退货或查看您的订单历史记录。</p>
+							<div class="bg-light">
+								<span class="mx-3 iconfont icon-waimai2"></span><span><strong>尽心服务 一如既往</strong></span>
+								<p>我们正竭尽全力确保包裹安全送至您手上</p>
+							</div>
+							<span class="iconfont icon-xinpinzhuanqu-"></span>
+							<h4 class="text-center">下单后，您可在此查看详情。</h4>
+							<button type="button" class="btn btn-outline-dark w-25 d-block m-auto">逛逛新品</button>
+							<br>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 尾部 -->
+		<div class="container-fluid bg-dark">
+			<div class="footer clearfix">
+				<ul class="nav flex-column float-left">
+					<li>
+						<a class="nav-link text-white"" href=" #">广东农工商职业技术学院</a>
+					</li>
+					<li>
+						<a class="nav-link text-white" href="#">XX电子商务有限公司 | 营业执照</a>
+					</li>
+					<li>
+						<a class="nav-link disabled text-white" href="#">© Copyright 2020 GOODCLOTHES. 版权所有</a>
+					</li>
+				</ul>
+				<div class="float-right text-white pt-3">
+					<span>关注GOODCLOTHES</span>
+					<br>
+					<span class="icons2 iconfont icon-alipay"></span>
+					<span class="icons2 iconfont icon-icon-test44"></span>
+					<span class="icons2 iconfont icon-dingwei"></span>
+				</div>
+			</div>
+			<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+			<script src="lib/jquery/jquery.min.js"></script>
+			<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+			<script src="lib/js/bootstrap.bundle.min.js"></script>
+			<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+			<script src="lib/js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>结算</title>
+		<!-- 新 Bootstrap4 核心 CSS 文件-->
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/settle.css" />
+		<!-- 引入iconfont字体样式表 -->
+		<link rel="stylesheet" href="iconfont-v1.0/style.css">
+	</head>
+	<body>
+		<!-- 顶部 -->
+		<div class="container-fluid top">
+			<nav class="breadcrumb w-100">
+				<a class="breadcrumb-item text-dark font-weight-bold" href="list.html">人见人爱</a>
+				<span class="breadcrumb-item text-dark text-black-50 active">人气好礼，一次购齐</span>
+				<a class="breadcrumb-item text-dark" href="list.html">去逛逛</a>
+			</nav>
+		</div>
+		<!-- 导航栏 -->
+		<div class="container-fluid header">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a href="index.html"><img class="navbar-brand" src="img/logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">男士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">女士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">儿童</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<span class="search">
+					<nav class="navbar navbar-expand-sm navbar-dark">
+						<form class="form-inline">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search">
+								<button type="button" class="btn btn-outline-dark">黑色</button>
+							</div>
+						</form>
+					</nav>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-mine text-dark" href="login.html" title="登录"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-waimai3 text-dark" href="shopcar.html" title="购物车"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="iconfont icon-icon-test8 text-dark" href="personal.html" title="个人中心"></a>
+				</span>
+			</nav>
+		</div>
+		<!-- 结算 -->
+		<div class="container">
+			<h5>填写并核对订单信息</h5>
+			<div class="my-4 border">
+				<p class="pt-2 pl-2"><strong>收货人信息</strong></p><a class="text-right d-block text-secondary mx-3" href="">新增收货地址</a></span>
+				<form class="mx-4 pb-3 form-inline">
+					<label for="text"><button type="button" class="mx-3 btn btn-outline-dark">姓名</button></label>
+					<input type="text" class="form-control w-75" id="text" placeholder="输入地址">
+				</form>
+				<p class="border-top pt-2 pl-2"><strong>支付方式</strong></p>
+				<div class="mx-4 pb-4 btn-group">
+					<button type="button" class="mx-3 btn btn-outline-secondary">货到付款</button>
+					<button type="button" class="btn btn-outline-secondary"><span class="bg-danger text-white mr-2">惠</span>在线支付</button>
+				</div>
+				<div class="shop-left d-flex justify-content-between border-top">
+					<div class="py-2">
+						<p class="pt-2 pl-2"><strong>送货清单</strong></p>
+					</div>
+					<div class="text-secondary font-weight-bolder"><a href="" class="text-secondary iconfont icon-icon-test24 d-block pt-4">价格说明</a></div>
+					<div><a class="d-block text-secondary pt-4 mx-3" href="shopcar.html">返回修改购物车</a></div>
+				</div>
+				<!-- 商品壹 -->
+				<div class="d-flex justify-content-between bg-light">
+					<div>
+						<img src="img/13.jpg" alt="">
+					</div>
+					<div class="align-self-center">
+						<span><strong>Random Identities</strong></span><br>
+						<span>分层式衬衫</span><br>
+						<span class="text-secondary font-weight-lighter">Farfetch 特定编号: 16116202</span><br>
+						<span class="bg-secondary text-white">最后1件</span><br>
+						<span class="text-danger">支持7天无理由退货（使用后不支持）</span>
+					</div>
+					<div class="mr-5 ml-2 align-self-center">
+						<strong>¥200</strong>
+					</div>
+					<div class="mr-5 align-self-center">
+						<p>尺码：<strong>S Waist </strong><a class="text-secondary" href="">更改</a></p>
+						<p>数量：1</p>
+					</div>
+					<div class="align-self-center">
+						<p class="mx-3">有货</p>
+					</div>
+				</div>
+				<form class="mx-4 py-3 pb-3 form-inline">
+					<label for="text">留言：</label>
+					<input type="text" class="form-control w-75" id="text" placeholder="建议留言请先和商家沟通">
+				</form>
+				<p class="border-top pt-2 pl-2"><strong>发票信息</strong></p>
+				<span class="mx-2 font-weight-lighter text-secondary"><span class="text-warning iconfont icon-tishi"></span>开企业抬头发票须填写纳税人识别号，以免影响报销</span>
+				<p class="mx-2">不开发票<a class="m-2" href="">修改</a></p>
+				<p class="border-top pt-2 pl-2"><strong>使用优惠</strong></p>
+				<button type="button" class="btn text-danger" data-toggle="collapse" data-target="#demo">优惠卷<span class="iconfont icon-xiangxiajiantou2"></span></button>
+				<div id="demo" class="collapse show">
+					<p class="pl-2 bg-light">金额抵用<span class="text-danger font-weight-bold">￥0.00</span></p>
+				</div>
+			</div>
+			<div class="text-right">
+				<p><span class="text-danger">1</span>件商品，总金额：<span class="ml-2 px-3">￥266.80</span></p>
+				<p>运费：<span class="ml-5 pl-5 px-3">￥200.00</span></p>
+			</div>
+			<div class="bg-light w-100 text-right">
+				<p>应付金额：<span class="ml-5 pl-5 text-danger font-weight-bold px-3">￥200.00</span></p>
+			</div>
+			<button type="button" class="btn btn-dark text-white w-25">提交订单</button>
+		</div>
+		<br>
+		<!-- 尾部 -->
+		<div class="container-fluid bg-dark">
+			<div class="footer clearfix">
+				<ul class="nav flex-column float-left">
+					<li>
+						<a class="nav-link text-white"" href=" #">广东农工商职业技术学院</a>
+					</li>
+					<li>
+						<a class="nav-link text-white" href="#">XX电子商务有限公司 | 营业执照</a>
+					</li>
+					<li>
+						<a class="nav-link disabled text-white" href="#">© Copyright 2020 GOODCLOTHES. 版权所有</a>
+					</li>
+				</ul>
+				<div class="float-right text-white pt-3">
+					<span>关注GOODCLOTHES</span>
+					<br>
+					<span class="icons2 iconfont icon-alipay"></span>
+					<span class="icons2 iconfont icon-icon-test44"></span>
+					<span class="icons2 iconfont icon-dingwei"></span>
+				</div>
+			</div>
+			<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+			<script src="lib/jquery/jquery.min.js"></script>
+			<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+			<script src="lib/js/bootstrap.bundle.min.js"></script>
+			<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+			<script src="lib/js/bootstrap.min.js"></script>
+	</body>
+</html>

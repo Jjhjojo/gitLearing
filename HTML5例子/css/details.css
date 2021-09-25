@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 顶部 */
+.top{
+	background-color: #dcdcdd;
+	height: 40px;
+}
+.breadcrumb{
+	display: block;
+	position: absolute;
+	background-color: transparent;
+	text-align: center;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+	content: "|";
+}
+/* 导航栏 */
+.header{
+	width: 90%;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #000000;
+}
+.icons{
+	font-size: 20px;
+}
+.nav-item{
+    margin: 10px;
+}
+/* 尾部 */
+.footer{
+	height: 120px;
+}
+.icons2{
+	font-size: 30px;
+}
+.float-right{
+	padding: 50px;
+	display: block;
+}
+@media (max-width:576px) {
+	/* 头部导航菜单大小发生变化*/
+	.float-right{
+		display: none;
+	}
+	.btn-dark{
+		width: 70%;
+		margin-left: 20px;
+	}
+	.custom-select-lg{
+		margin-left: 10px;
+	}
+}
+/* 详情页 */
+/* 左边 */
+.carousel{
+	width: 100%;
+	background-color: beige;
+}
+.pic img{
+	display: block;
+	width: 400px;
+	height: 500px;
+	margin: auto;
+}
+/* 右边 */
+.text{
+    text-decoration: line-through;
+}
+.custom-select-lg{
+	display: block;
+	width: 100%;
+	border-radius: 8px;
+}
+div.check{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	height: 400px;
+	margin: 10px;
+}
+.size{
+	padding-bottom: 20px;
+}
+.icon-icon-test6{
+	font-size: 15px;
+	padding-top: 20px;
+}
+.btn-dark{
+	margin-left: 20px;
+}
+.btn-outline-secondary{
+	color: #000000;
+}
+/* 简介 */
+.text-dark{
+	text-decoration: underline;
+}
+.text-right img{
+	width: 390px;
+	height: 520px;
+}
+.type{
+	border: 1px solid black;
+	width: 50px;
+}
+.collapsed{
+	color: black;
+	font-weight: bold;
+}
+.card-header a{
+	color: #000000;
+	
+}
+.ad img{
+	display: block;
+	width: 80%;
+	margin: auto;
+}
+.carousel-inner{
+	display: block;
+}

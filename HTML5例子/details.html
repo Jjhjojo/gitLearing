@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 新 Bootstrap4 核心 CSS 文件-->
+		<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/details.css" />
+		<!-- 引入iconfont字体样式表 -->
+		<link rel="stylesheet" href="iconfont-v1.0/style.css">
+	</head>
+	<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+		<!-- 顶部 -->
+		<div class="container-fluid top">
+			<nav class="breadcrumb w-100">
+				<a class="breadcrumb-item text-dark font-weight-bold" href="list.html">人见人爱</a>
+				<span class="breadcrumb-item text-black-50 active">人气好礼，一次购齐</span>
+				<a class="breadcrumb-item text-dark" href="list.html">去逛逛</a>
+			</nav>
+		</div>
+		<!-- 导航栏 -->
+		<div class="container-fluid header">
+			<nav class="navbar navbar-expand-md navbar-light">
+				<a href="index.html"><img class="navbar-brand" src="img/logo.png" alt=""></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">男士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">女士</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+						<li class="nav-item dropright">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">儿童</a>
+							<div class="dropdown-menu">
+								<!-- Dropdown menu links -->
+								<a class="dropdown-item text-danger" href="#">折扣</a>
+								<a class="dropdown-item" href="#">新近单品</a>
+								<a class="dropdown-item" href="#">按主题选购</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<span class="search">
+					<nav class="navbar navbar-expand-sm navbar-dark">
+						<form class="form-inline">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search">
+								<button type="button" class="btn btn-outline-dark">搜索</button>
+							</div>
+						</form>
+					</nav>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-mine text-dark" href="login.html" title="登录"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="icon icon-waimai3 text-dark" href="shopcar.html" title="购物车"></a>
+				</span>
+				<span class="icons m-1">
+					<a class="iconfont icon-icon-test8 text-dark" href="personal.html" title="个人中心"></a>
+				</span>
+			</nav>
+		</div>
+		<!-- 详情页 -->
+		<div class="container">
+			<!-- 左列 -->
+			<div class="d-sm-flex d-xl-flex flex-row justify-content-between">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+
+					<!-- 指示符 -->
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="active"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+						<li data-target="#demo" data-slide-to="2"></li>
+						<li data-target="#demo" data-slide-to="3"></li>
+					</ul>
+
+					<!-- 轮播图片 -->
+					<div class="carousel-inner pic">
+						<div class="carousel-item active">
+							<img src="img/details/1.jpg">
+						</div>
+						<div class="carousel-item">
+							<img src="img/details/2.jpg">
+						</div>
+						<div class="carousel-item">
+							<img src="img/details/3.jpg">
+						</div>
+						<div class="carousel-item">
+							<img src="img/details/4.jpg">
+						</div>
+					</div>
+
+					<!-- 左右切换按钮 -->
+					<a class="carousel-control-prev" href="#demo" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a class="carousel-control-next" href="#demo" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+
+				</div>
+				<!-- 右列 -->
+				<div class="check">
+					<h4 class="text-center">Valentino Garavani</h4>
+					<p class="text-center">VLTN Wod 运动鞋</p>
+					<div class="text-center"><span class="text text-secondary">￥ 700&nbsp;&nbsp;</span><span>&nbsp;&nbsp;优惠30%</span><span
+						 class="text-danger font-weight-bold">&nbsp;&nbsp;&nbsp;&nbsp;￥ 490</span></div>
+					<p class="iconfont icon-icon-test6 text-right">尺码大小</p>
+					<form class="size">
+						<select name="cars" class="custom-select-lg">
+							<option selected>尺码40号</option>
+							<option>尺码41号</option>
+							<option>尺码42号</option>
+							<option>尺码43号</option>
+						</select>
+					</form>
+					<div>
+						<button type="button" class="btn btn-dark">加入购物袋</button>
+						<button type="button" class="btn btn-outline-secondary">愿望单<span class="iconfont icon-icon-test30"></span></button>
+					</div>
+					<div class="d-inline-flex">
+						<div class="item active">
+							<img src="img/details/5.jpg">
+						</div>
+						<div class="item">
+							<img src="img/details/6.jpg">
+						</div>
+						<div class="item">
+							<img src="img/details/7.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<!-- 简介 -->
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header">
+						<a class="card-link" data-toggle="collapse" href="#collapseOne">
+							商品详情<span class="iconfont icon-gengduo7 text-danger mx-4"></span>
+						</a>
+					</div>
+					<div id="collapseOne" class="collapse show" data-parent="#accordion">
+						<div class="card-body">
+							<h5>Valentino Garavani</h5>
+							<span>VLTN Wod 运动鞋</span>
+							<p></p>
+							<p>这款VLTN Wod 运动鞋来自 Valentino Garavani。设计细节：橡胶鞋底、抽绳系带、穿孔式细节。</p>
+
+							<p>意大利制造</p>
+
+							<p>商品来自英国</p>
+
+							<h6 class="text-secondary font-weight-bolder">成分</h6>
+							<span>表面: 绒面皮 100%，锦纶 100%</span><br>
+
+							<span>Inner: 锦纶 100%</span><br>
+
+							<span>鞋底: 橡胶 100%</span>
+							<p></p>
+							<span class="text-secondary">Designer Style ID: </span><span> TY2S0C75CDK</span>
+							<p></p>
+							<h6 class="text-secondary font-weight-bolder">模特试穿参考</h6>
+							<p>模特身高1.88 米 ，所穿尺码为44 (IT)</p>
+
+							<p>模特身穿： <a class="text-dark" href="">Fendi 可拆卸口袋弹性西装夹克</a>，<a class="text-dark" href="">Palm Angels Red logo 口罩</a>，<a
+								 class="text-dark" href="">Jil Sander 单排扣长款外搭大衣</a>。</p>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+							尺码<span class="iconfont icon-xinpinzhuanqu- text-danger mx-4"></span>
+						</a>
+					</div>
+					<div id="collapseTwo" class="collapse" data-parent="#accordion">
+						<div class="card-body">
+							<p>模特资料</p>
+
+							<span>身高:1.80 米</span><br>
+							<span>胸围:87 厘米</span><br>
+							<span>臀围:91 厘米</span><br>
+							<span>腰围:70 厘米</span><br>
+							<p>模特身高1.88 米 ，所穿尺码为42 (IT)</p>
+
+							<p class="text-black-50">Product measurements</p>
+							<p>Displaying measurements for size (意大利):</p>
+
+							<p class="type text-center">44码</p>
+							<p>鞋跟&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 厘米</p>
+							<p>鞋底高度&nbsp;&nbsp;&nbsp;&nbsp;3.5 厘米</p>
+							<p>Need to convert sizes?<a class="text-dark" href="">Check our Size Guide</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header">
+						<a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+							SHIPPING & FREE RETURNS <span class="iconfont icon-waimai2 text-danger mx-4"></span>
+						</a>
+					</div>
+					<div id="collapseThree" class="collapse" data-parent="#accordion">
+						<div class="card-body">
+							<h6 class="text-black-50 font-weight-bolder">安心下单</h6>
+							<li>满额享定额运费，全价商品满¥300免运费</li>
+							<li>全球正品直邮</li>
+							<li>14天无理由免费退货，关税一并退还 （专属定制商品与口罩除外）</li>
+							<li>您每一笔订单的配送与退货都将助力 Farfetch 碳中和计划</li>
+							<p>Import duties information</p>
+							<span>我们护驾，清关无忧</span>
+							<p class="text-justify">我们提供专业清关协助，所有寄往中国大陆、欧盟、英国、美国、加拿大、澳大利亚、新西兰、以色列、波多黎各、瑞士、新加坡、韩国、科威特、墨西哥、卡塔尔、印度、挪威、沙特阿拉伯、台湾地区、泰国、阿拉伯联合酋长国、日本、巴西、马恩岛、圣马力诺、哥伦比亚、香港特别行政区、加那利群岛、智利、阿根廷、埃及、黎巴嫩和巴林的订单均已包含了进口税。因此，在您收到商品时，不会有额外税费需要支付。您所看到的订单总价即为您所需支付的所有费用。</p>
+							<p class="text-black-50 font-weight-bolder">想了解更多信息？</p>
+							<li><a class="text-dark" href="">退货与退款</a></li>
+							<li><a class="text-dark" href="">碳中和计划</a></li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="ad container-fluid bg-light">
+			<a href=""><img class="ad" src="img/details/8.png" alt=""></a>
+		</div>
+		<!-- 结尾 -->
+		<div class="container-fluid bg-dark">
+			<div class="footer clearfix">
+				<ul class="nav flex-column float-left">
+					<li>
+						<a class="nav-link text-white"" href=" #">广东农工商职业技术学院</a>
+					</li>
+					<li>
+						<a class="nav-link text-white" href="#">XX电子商务有限公司 | 营业执照</a>
+					</li>
+					<li>
+						<a class="nav-link disabled text-white" href="#">© Copyright 2020 GOODCLOTHES. 版权所有</a>
+					</li>
+				</ul>
+				<div class="float-right text-white pt-3">
+					<span>关注GOODCLOTHES</span>
+					<br>
+					<span class="icons2 iconfont icon-alipay"></span>
+					<span class="icons2 iconfont icon-icon-test44"></span>
+					<span class="icons2 iconfont icon-dingwei"></span>
+				</div>
+			</div>
+			<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+			<script src="lib/jquery/jquery.min.js"></script>
+			<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+			<script src="lib/js/bootstrap.bundle.min.js"></script>
+			<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+			<script src="lib/js/bootstrap.min.js"></script>
+	</body>
+</html>

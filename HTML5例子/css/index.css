@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 顶部 */
+.top{
+	background-color: #dcdcdd;
+	height: 40px;
+}
+.breadcrumb{
+	display: block;
+	position: absolute;
+	background-color: transparent;
+	text-align: center;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+	content: "|";
+}
+/* 导航栏 */
+.header{
+	width: 90%;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #000000;
+}
+.icons{
+	font-size: 20px;
+}
+.nav-item{
+    margin: 10px;
+}
+/* 内容 */
+.content{
+	width: 550px;
+	height: 700px;
+}
+.content img{
+	width: 550px;
+	height: 600px;
+}
+@media (max-width:576px) {
+	/* 头部导航菜单大小发生变化*/
+	.content{
+		width: 450px;
+		height: 550px;
+	}
+	.content img{
+		width: 450px;
+		height: 450px;
+	}
+	.float-right{
+		display: none;
+	}
+	.carousel-item img{
+		display: block;
+		height: 300px;
+	}
+}
+/* 商品 */
+.goods img{
+	width: 260px;
+	height: 340px;
+}
+.icon-icon-test30{
+	font-size:25px;
+}
+/* 轮播图 */
+.carousel-item img{
+	display: block;
+	margin: auto;
+}
+.picture{
+	display: block;
+	width: 80%;
+}
+/* 尾部 */
+.footer{
+	height: 120px;
+}
+.icons2{
+	font-size: 30px;
+}
+.float-right{
+	padding: 50px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	width: 50px;
+	height: 50px;
+	display: block;
+	background-color: #000000;
+	border-radius: 50%;
+}
