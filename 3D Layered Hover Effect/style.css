@@ -114,30 +114,3 @@ html,body{
     bottom: -35px;
     opacity: 1;
 }
-button:before,
-button:after {
-    content: '';
-    position: absolute;
-    
-    width: 199px;
-    height: 199px;
-    border-radius: 50%;
-    border: 2px solid rgba(226, 45, 166, 0.7);
-}
-button:hover:before,
-button:hover:after {
-    border-color: transparent;
-    -webkit-filter: blur(2px);
-    filter: blur(2px);
-    -webkit-transform: scale(4);
-    transform: scale(4);
-    -webkit-transition: 1000ms transform ease, 2100ms blur ease, 900ms border-color ease;
-    transition: 1000ms transform ease, 2100ms blur ease, 900ms border-color ease;
-}
-button:hover:after {
-    -webkit-transition-delay: 100ms;
-    transition-delay: 100ms;
-}
-.qq{
-    position: relative;
-}
